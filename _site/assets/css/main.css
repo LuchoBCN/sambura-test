@@ -465,16 +465,15 @@ header {
 
 body {
   margin: 10px;
-  background-color: #ddd;
-  overflow-x: hidden; }
+  background-color: #ddd; }
 
 .page-home {
   text-align: center; }
-  .page-home #services {
-    height: 1000px; }
   .page-home .hero-container {
     width: 100%;
-    margin-top: 90px; }
+    height: 400px;
+    margin-top: 90px;
+    background-color: transparent; }
     .page-home .hero-container .slider {
       width: 60%;
       height: 400px;
@@ -515,3 +514,8 @@ body {
         margin-bottom: 20px; }
       .page-home .hero-container .serv-container {
         width: 100%; } }
+
+#services {
+  height: 500px;
+  display: block;
+  background-color: #fff; }
