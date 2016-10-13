@@ -526,7 +526,6 @@ body {
 
 #services {
   width: 95%;
-  height: 500px;
   margin: auto;
   background-color: #fff;
   overflow: hidden; }
@@ -560,3 +559,11 @@ body {
 li {
   line-height: 2.2;
   font-size: 1.2; }
+
+@media screen and (max-width: 720px) {
+  #services {
+    background-color: #FF851B; }
+
+  .lista {
+    display: block;
+    margin: auto; } }
