@@ -410,15 +410,15 @@ header {
     display: none; }
   header .dropdown-content {
     display: none;
-    position: relative;
+    position: fixed;
     background-color: #fff;
     width: 100%;
     height: 500px;
     opacity: 0.5; }
   header .thunder-container {
-    position: absolute;
-    left: 50%;
-    top: 50%; }
+    position: absolute; }
+    header .thunder-container .thunder-item {
+      font-size: 30px; }
   header .show {
     display: block; }
   header .dropbtn {
