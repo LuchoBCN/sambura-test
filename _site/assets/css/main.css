@@ -515,7 +515,15 @@ body {
         width: 100%;
         margin-bottom: 20px; }
       .page-home .hero-container .serv-container {
-        width: 100%; } }
+        width: 100%; }
+        .page-home .hero-container .serv-container .serv-action {
+          float: initial;
+          margin-bottom: 0px;
+          margin-left: 0px;
+          margin: 10px auto; }
+          .page-home .hero-container .serv-container .serv-action .link-container {
+            margin-top: 0px;
+            padding: 30px; } }
     @media screen and (max-width: 320px) {
       .page-home .hero-container .slider {
         background-color: #fff;
@@ -562,8 +570,13 @@ li {
 
 @media screen and (max-width: 720px) {
   #services {
-    background-color: #FF851B; }
+    background-color: transparent; }
 
   .lista {
     display: block;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 40px; }
+
+  .lista-item {
     margin: auto; } }
