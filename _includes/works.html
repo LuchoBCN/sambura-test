@@ -1,0 +1,14 @@
+
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {{ post.content }}
+  {% endfor %}
+</ul>
+
+<ul>
+  {% for work in site.works %}
+    <li><a href="{{ work.url }}">{{ work.title }}</a></li>
+    {{ work.content }}
+  {% endfor %}
+</ul>

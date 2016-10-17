@@ -7,3 +7,5 @@ markdown: kramdown
 sass:
   sass_dir: assets/css
 
+collections:
+  works:
