@@ -1,14 +1,48 @@
 
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {{ post.content }}
-  {% endfor %}
-</ul>
+<section class="work-section">
 
-<ul>
   {% for work in site.works %}
-    <li><a href="{{ work.url }}">{{ work.title }}</a></li>
-    {{ work.content }}
+  <div class="work-container">
+    <div class="work-title">{{ work.title }} </div>
+
+    <div id="audio-player">
+      <div class="song-info">
+      <span class="artist font-player">Artista </span><span class="title font-player">canción </span><span class="duracion font-player">12:14</span>
+      </div>
+      <div class="tracker">
+        <div class="progress-bar">
+          <span id="progress"></span>
+        </div>
+      </div>          
+      <div id="audio-buttons">
+        <button class="play"></button>
+        <button class="pause"></button>
+      </div>
+    </div>
+
+    <div id="audio-player">
+      <div class="song-info">
+      <span class="artist font-player">Artista </span><span class="title font-player">canción </span><span class="duracion font-player">12:14</span>
+      </div>
+      <div class="tracker">
+        <div class="progress-bar">
+          <span id="progress"></span>
+        </div>
+      </div>          
+      <div id="audio-buttons">
+        <button class="play"></button>
+        <button class="pause"></button>
+      </div>
+    </div>
+    
+    <div class="work-content">
+    <div class="work-review">  
+      {{ work.content }}
+    </div>
+    </div>
+    <div class="tags">
+      
+    </div>
+  </div>
   {% endfor %}
-</ul>
+</section>
