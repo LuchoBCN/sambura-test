@@ -211,6 +211,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
+.sticky {
+  background-color: #111; }
+
 ::selection {
   background: #FFF498; }
 
@@ -384,7 +387,10 @@ header {
   line-height: 1.09;
   letter-spacing: -2px;
   position: fixed;
-  top: 5px; }
+  top: 5px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -transition: all 0.4s ease; }
   header .logo {
     height: 64px;
     width: 64px;
@@ -392,6 +398,14 @@ header {
     float: left;
     border-radius: 50%;
     margin-top: 5px; }
+  header .logo-sticky {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    float: left;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px; }
   header nav {
     width: 500px;
     display: inline-block;
@@ -539,7 +553,7 @@ body {
 
 #services {
   width: 100%;
-  margin: 20px auto;
+  margin: 0 auto;
   background-color: #fff;
   overflow: hidden; }
 
@@ -592,7 +606,7 @@ li {
     display: block;
     margin: auto;
     width: 90%;
-    margin-top: 80px; }
+    margin: 80px auto; }
 
   .lista-item {
     margin: auto; } }

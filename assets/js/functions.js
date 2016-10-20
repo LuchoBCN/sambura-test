@@ -1,12 +1,7 @@
-$( document ).ready(function() {
-    <script>
-      /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
     function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
     }
 
-    // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
 
@@ -21,16 +16,17 @@ $( document ).ready(function() {
       }
     }
 
-//STICKY
     $(window).scroll(function() {
       if ($(this).scrollTop()>2) {
         $('header').addClass("sticky");
+        $('.logo').removeClass().addClass("logo-sticky");
       }
       else {
         $('header').removeClass("sticky");
+        $('.logo-sticky').removeClass().addClass("logo");
+
       }
-    })
-    </script>
+    });
+    
+    
 
-
-});
