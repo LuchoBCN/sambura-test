@@ -669,3 +669,6 @@ li {
   width: 14px;
   background-image: url(../img/pause.png);
   display: none; }
+
+.work-container {
+  margin: 20px 5px; }
