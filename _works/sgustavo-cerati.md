@@ -1,4 +1,7 @@
 ---
 title: Gustavo Cerati
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis molestie ipsum, et convallis mi suscipit vitae. In id suscipit mauris, vel vehicula tellus. Quisque diam purus, interdum vitae dignissim sed, porta ac odio. Nam in leo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+WALLS mostly finds Kings of Leon back 
+in that mode of offering up fast-food 
+“whoa-oh” singalongs and guitars that 
+chime as distinctly as wallpaper.

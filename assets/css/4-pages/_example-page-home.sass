@@ -3,14 +3,6 @@ body
   background-color: $silver
 
 
-
-
-
-
-
-
-
-
 .page-home
   text-align: center
   .hero-container
@@ -18,35 +10,34 @@ body
     height: 400px
     margin-top: 90px
     background-color: transparent
-    .slider
-      width: 60%
-      height: 400px
-      background-color: $orange
-      //opacity: 0.5
+  .slider
+    width: 60%
+    height: 400px
+    background-color: $orange
+    //opacity: 0.5
+    float: left
+    
+  .serv-container
+    height: 400px
+    width: 40%
+    float: left   
+    .serv-action
       float: left
-    .serv-container
-
-
-      height: 400px
-      width: 40%
-      float: left   
-      .serv-action
-        float: left
-        margin-bottom: 10px
-        margin-left: 10px
-        width: 90%
-        height: 100px
-        background-color: $red
-        .link-container
-          margin-top: 34px
-          .serv
-            background-color: $white
-            color: #555
-            font-size: 18px
-            font-weight: 600
-            letter-spacing: .1rem
-            text-transform: uppercase
-            text-decoration: none
+      margin-bottom: 10px
+      margin-left: 10px
+      width: 90%
+      height: 100px
+      background-color: $red
+      .link-container
+        margin-top: 34px
+        .serv
+          background-color: $white
+          color: #555
+          font-size: 18px
+          font-weight: 600
+          letter-spacing: .1rem
+          text-transform: uppercase
+          text-decoration: none
 
   .tag-line-container
     width: 95%
@@ -57,29 +48,29 @@ body
 
 
 
-    @media screen and (max-width: 720px)
-      .slider 
-        background-color: $red
-        width: 100%
-        margin-bottom: 20px
-      .serv-container
-        width: 100%
-        .serv-action
-          float: initial
-          margin-bottom: 0px
-          margin-left: 0px
-          margin: 10px auto
-          .link-container
-            margin-top: 0px
-            padding: 30px
-    
-    @media screen and (max-width: 320px)
-      .slider 
-        background-color: $white
-        width: 100%
-        margin-bottom: 20px
-      .serv-container
-        width: 100%
+  @media screen and (max-width: 720px)
+    .slider 
+      background-color: $red
+      width: 100%
+      margin-bottom: 20px
+    .serv-container
+      width: 100%
+      .serv-action
+        float: initial
+        margin-bottom: 0px
+        margin-left: 0px
+        margin: 10px auto
+        .link-container
+          margin-top: 0px
+          padding: 30px
+  
+  @media screen and (max-width: 320px)
+    .slider 
+      background-color: $white
+      width: 100%
+      margin-bottom: 20px
+    .serv-container
+      width: 100%
 
         
 
