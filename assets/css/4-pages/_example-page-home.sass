@@ -1,14 +1,17 @@
-body
-  margin: 10px
-  background-color: $silver
+
+#blank
+  height: 200px
+  display: block
+  background-color: #666
 
 
 .page-home
   text-align: center
-  .hero-container
-    width: 100%
+
+  .top
+    display: block
+  #hero-container
     height: 400px
-    margin-top: 90px
     background-color: transparent
   .slider
     width: 60%
@@ -20,12 +23,12 @@ body
   .serv-container
     height: 400px
     width: 40%
-    float: left   
+    float: left
+    overflow: hidden
     .serv-action
       float: left
-      margin-bottom: 10px
-      margin-left: 10px
-      width: 90%
+      margin: 0 10px 10px 10px
+      width: 100%
       height: 100px
       background-color: $red
       .link-container
@@ -48,7 +51,7 @@ body
 
 
 
-  @media screen and (max-width: 720px)
+  @media screen and (max-width: 768px)
     .slider 
       background-color: $red
       width: 100%

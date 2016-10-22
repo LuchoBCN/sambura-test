@@ -1,12 +1,8 @@
 
 header
     height: 90px
-    width: 96%
     font-size: 20px
     line-height: 1.09
-    letter-spacing: -2px
-    position: fixed
-    top: 5px
     -webkit-transition: all 0.4s ease
     -moz-transition: all 0.4s ease
     -transition: all 0.4s ease
@@ -18,21 +14,19 @@ header
     .logo
         height: 64px
         width: 64px
-        background: #fff
-        float: left
+        background: $black
         border-radius: 50%
-        margin-top: 5px
-    .logo-sticky
-        height: 40px
-        width: 40px
-        background: #fff
-        float: left
-        border-radius: 50%
-        margin-top: 5px
-        margin-left: 5px
-    nav
-        width: 500px
+        margin: 12px 0 0 10px
         display: inline-block
+    .logo-sticky
+        height: 64px
+        width: 64px
+        background: #fff
+        border-radius: 50%
+        margin: 12px 0 0 10px
+        display: inline-block
+    nav
+        width: 400px
         float: right
         margin-top: 40px
 
@@ -119,15 +113,14 @@ header
             background-color: $orange
     #escribenos
         float: right
-        margin-top: 26px
-        height: 38px
         padding: 0 30px
+        margin-top: 25px
 
 
     @media screen and (max-width: 720px)
         nav
             display: none
         .dropbtn
-            display: block
+            display: inline-block
 
 
