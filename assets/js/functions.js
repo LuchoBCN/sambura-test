@@ -20,12 +20,12 @@
       if ($(this).scrollTop()>90) {
         $('header').addClass("sticky");
         $('.logo').removeClass().addClass("logo-sticky");
-        $('#blank').addClass("top");
+        $('#blank').addClass("topi");
       }
       else {
         $('header').removeClass("sticky");
         $('.logo-sticky').removeClass().addClass("logo");
-        $('#blank').removeClass("top");
+        $('#blank').removeClass("topi");
 
 
       }
