@@ -213,9 +213,15 @@ body {
 
 .warp-container {
   margin: 0px 10px; }
-  .warp-container .topi {
-    background-color: #FF4136;
-    height: 200px; }
+
+.blank {
+  height: 0px;
+  display: block;
+  background-color: #111; }
+
+.topi {
+  background-color: #FF4136;
+  height: 90px; }
 
 .sticky {
   background-color: #ddd;
@@ -479,17 +485,12 @@ header {
   header #escribenos {
     float: right;
     padding: 0 30px;
-    margin-top: 25px; }
+    margin: 25px 10px; }
   @media screen and (max-width: 720px) {
     header nav {
       display: none; }
     header .dropbtn {
       display: inline-block; } }
-
-#blank {
-  height: 500px;
-  display: block;
-  background-color: #666; }
 
 .page-home {
   text-align: center; }
@@ -499,7 +500,7 @@ header {
   .page-home .slider {
     width: 60%;
     height: 400px;
-    background-color: #FF851B;
+    background-color: #ddd;
     float: left; }
   .page-home .serv-container {
     height: 400px;
