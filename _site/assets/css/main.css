@@ -495,8 +495,10 @@ header {
   .page-home .slider {
     width: 60%;
     height: 400px;
-    background-color: #ddd;
-    float: left; }
+    background-image: url("/assets/img/recording-01.jpg");
+    background-size: cover;
+    float: left;
+    overflow: hidden; }
   .page-home .serv-container {
     height: 400px;
     width: 40%;
