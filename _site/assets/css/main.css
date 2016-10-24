@@ -217,16 +217,17 @@ body {
 .blank {
   height: 0px;
   display: block;
-  background-color: #111; }
+  background-color: transparent; }
 
 .topi {
   background-color: #FF4136;
-  height: 90px; }
+  height: 45px; }
 
 .sticky {
-  background-color: #ddd;
+  background-color: #111;
   position: fixed;
-  margin-top: 0px; }
+  margin-top: 0px;
+  height: 45px; }
 
 ::selection {
   background: #FFF498; }
@@ -398,20 +399,20 @@ header {
   height: 90px;
   font-size: 20px;
   line-height: 1.09;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -transition: all 0.4s ease; }
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -transition: all 0.4s linear; }
   header .logo {
     height: 64px;
     width: 64px;
     margin: 12px 0 0 10px;
     display: inline-block; }
   header .logo-sticky {
-    height: 64px;
-    width: 64px;
+    height: 32px;
+    width: 32px;
     background: #fff;
     border-radius: 50%;
-    margin: 12px 0 0 10px;
+    margin: 6px 0 0 10px;
     display: inline-block; }
   header nav {
     width: 400px;
