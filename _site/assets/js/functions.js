@@ -53,6 +53,7 @@ window.onclick = function(event) {
         $('.menu').addClass("menu-top");
         $('.escribenos').addClass("escribenos-top");
         $('.menu-icon').addClass("menu-icon-top");
+        $('.dropbtn').addClass("dropbtn-top");
       }
       else {
         $('header').removeClass("sticky");
@@ -62,6 +63,7 @@ window.onclick = function(event) {
         $('.menu').removeClass("menu-top");
         $('.escribenos').removeClass("escribenos-top");
         $('.menu-icon').removeClass("menu-icon-top");
+        $('.dropbtn).removeClass("dropbtn-top");
       }
     });
     
