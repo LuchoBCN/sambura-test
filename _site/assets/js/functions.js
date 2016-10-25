@@ -49,13 +49,17 @@ window.onclick = function(event) {
         $('header').addClass("sticky");
         $('.logo').removeClass().addClass("logo-sticky");
         $('.blank').addClass("topi");
+        $('nav').addClass("nav-top");
+        $('.menu').addClass("menu-top");
+        $('.escribenos').addClass("escribenos-top");
       }
       else {
         $('header').removeClass("sticky");
         $('.logo-sticky').removeClass().addClass("logo");
         $('.blank').removeClass("topi");
-
-
+        $('nav').removeClass("nav-top"); 
+        $('.menu').removeClass("menu-top");
+        $('.escribenos').removeClass("escribenos-top");
       }
     });
     
