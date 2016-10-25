@@ -19,14 +19,14 @@
 
 
 
-  $('#menu-icon').click(function(event){
+  $('.menu-icon').click(function(event){
       
       document.getElementById("myDropdown").classList.toggle("show");
 
     });
    
 window.onclick = function(event) {
-      if (!event.target.matches('#menu-icon')) {
+      if (!event.target.matches('.menu-icon')) {
 
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
