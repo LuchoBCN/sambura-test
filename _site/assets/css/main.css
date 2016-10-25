@@ -499,6 +499,7 @@ header {
     height: 400px;
     background-image: url("/sambura-test/assets/img/recording-01.jpg");
     background-size: cover;
+    background-position: center center;
     float: left;
     overflow: hidden; }
   .page-home .serv-container {
