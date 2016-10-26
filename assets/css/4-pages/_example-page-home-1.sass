@@ -1,46 +1,56 @@
 
 .page-home
-  text-align: center
 
 
   #hero-container
-    height: 400px
+    height: 600px
     background-color: transparent
+    margin: 10px 10px
   .slider
-    width: 60%
-    height: 400px
-    background-image: url("/sambura-test/assets/img/recording-01.jpg")
+    width: 100%
+    height: 600px
+    background-image: url("/assets/img/recording-01.jpg")
     background-size: cover
     background-position: center center
     //opacity: 0.5
     float: left
     overflow: hidden
+
     
   .serv-container
-    height: 400px
-    width: 40%
-    float: left
-    overflow: hidden
+    float: right
+    margin: 20px
+    text-align: right
+
     .serv-action
-      float: left
-      margin: 0 10px 10px 10px
-      width: 100%
-      height: 100px
-      background-color: $red
-      .link-container
-        margin-top: 34px
-        .serv
-          background-color: $white
-          color: #555
-          font-size: 18px
-          font-weight: 600
-          letter-spacing: .1rem
-          text-transform: uppercase
-          text-decoration: none
+      width: 150px
+      margin: 0 auto
+      margin-bottom: 25px
+      background-color: transparent
+      border-bottom: 2px solid $white
+      .serv-text
+        background-color: $white
+        color: #333
+        font-size: 12px
+        font-weight: 600
+        letter-spacing: .1rem
+        text-transform: uppercase
+        text-decoration: none
+        border-bottom: 2px solid $white
+
+
+
+  .icon
+    height: 60px
+    width: 60px
+    margin: 0 0 10px 90px
+  .icon-music
+    overflow: auto
 
   .tag-line-container
     width: 95%
     margin: auto
+    text-align: center
     .tag-line
       font-size: 28px
       padding: 30px
@@ -52,16 +62,15 @@
       background-color: $red
       width: 100%
       margin-bottom: 20px
-    .serv-container
-      width: 100%
+
       .serv-action
-        float: initial
-        margin-bottom: 0px
-        margin-left: 0px
         margin: 10px auto
         .link-container
           margin-top: 0px
-          padding: 30px
+          padding: 0px
+    #hero-container
+      margin: 0px 0px
+
   
   @media screen and (max-width: 320px)
     .slider 
