@@ -54,6 +54,8 @@ window.onclick = function(event) {
         $('.escribenos').addClass("escribenos-top");
         $('.menu-icon').addClass("menu-icon-top");
         $('.dropbtn').addClass("dropbtn-top");
+        $('.logo-type').addClass("logo-type-small");
+
       }
       else {
         $('header').removeClass("sticky");
@@ -64,6 +66,8 @@ window.onclick = function(event) {
         $('.escribenos').removeClass("escribenos-top");
         $('.menu-icon').removeClass("menu-icon-top");
         $('.dropbtn').removeClass("dropbtn-top");
+        $('.logo-type').removeClass("logo-type-small");
+
       }
     });
     
