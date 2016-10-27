@@ -1,9 +1,13 @@
 #services
     width: 100%
     margin: 0 auto
-    background-color: $white
+    background-color: #222
     overflow: hidden
     text-align: center
+    border-top: 1px dotted $white
+    border-bottom: 1px dotted $white
+
+
 .lista
     display: inline-block
     width: 25%
@@ -11,42 +15,57 @@
     background-color: transparent
     vertical-align: top
 .lista-item
-    width: 140px
+    width: 160px
     padding: 0px
     margin: 20px auto
     list-style-type: none
+    text-align: left
+    color: $silver
 
-.serv-icon
-    width: 50px
-    height: 50px
-    margin: auto
-    background-color: #666
-    border-radius: 50%
-    margin-bottom: 20px
+    .serv-icon
+        width: 18px
+        height: 18px
+        margin-bottom: 4px
+
+
 .tit-serv
     letter-spacing: 1px
-    border-bottom: 1px solid #666
-    border-top: 2px solid #666
-    padding: 4px
+    font-weight: 500
+
+
+.serv-head
+    border-bottom: 1px solid #999
+    line-height: 20px
+    margin-bottom: 10px
+    padding: 0 0 20px 0
+    text-align: left
 
 li
-    line-height: 46px
+    line-height: 42px
     font-size: 1.2
 
 .serv-button
-    background-color: #888
-    padding: 12px 25px
-    color: $white
+    background-color: transparent
+    color: $aqua
     font-size: 1.5
-    border-radius: 2px
+    font-weight: 300
+    text-align: left
+    border: 1px solid $aqua
+    padding: 8px 8px
+    &:hover,
+    &:focus
+        color: lighten($white, 20%)
+        background-color: lighten($black, 20%)
+
 
 .serv-button-container
-    margin-top: 20px
+    margin-top: 35px
+
+
+
 
 @media screen and (max-width: 720px)
 
-    #services
-        background-color: transparent
     .lista
         display: block
         margin: auto

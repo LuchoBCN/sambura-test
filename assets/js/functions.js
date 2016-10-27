@@ -55,6 +55,8 @@ window.onclick = function(event) {
         $('.menu-icon').addClass("menu-icon-top");
         $('.dropbtn').addClass("dropbtn-top");
         $('.logo-type').addClass("logo-type-small");
+        $('.mail-icon').addClass("mail-icon-top");
+
 
       }
       else {
@@ -67,6 +69,7 @@ window.onclick = function(event) {
         $('.menu-icon').removeClass("menu-icon-top");
         $('.dropbtn').removeClass("dropbtn-top");
         $('.logo-type').removeClass("logo-type-small");
+        $('.mail-icon').removeClass("mail-icon-top");
 
       }
     });
