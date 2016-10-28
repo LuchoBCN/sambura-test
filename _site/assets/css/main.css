@@ -537,7 +537,7 @@ header {
       display: block; }
     header .escribenos {
       display: none; } }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 380px) {
     header header {
       height: 80px; }
     header .logo {
@@ -600,7 +600,7 @@ header {
     margin-bottom: 20px; }
   .page-home #hero-container {
     margin: 0px 0px; } }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .page-home .slider {
     background-color: #fff;
     width: 100%;
@@ -760,6 +760,6 @@ li {
   font-weight: 400;
   margin-top: 3px; }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .work-container {
     margin: 20px 5px; } }
