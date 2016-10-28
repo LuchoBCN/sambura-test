@@ -407,8 +407,7 @@ header {
   header .logo {
     height: 60px;
     width: 60px;
-    margin: 12px 0 0 10px;
-    display: inline-block; }
+    margin: 12px 0 0 10px; }
   header .logo-type {
     width: 80px;
     display: inline-block; }
