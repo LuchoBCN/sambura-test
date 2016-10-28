@@ -598,24 +598,13 @@ header {
     background-color: #FF4136;
     width: 100%;
     margin-bottom: 20px; }
-    .page-home .slider .serv-action {
-      margin: 10px auto; }
-      .page-home .slider .serv-action .link-container {
-        margin-top: 0px;
-        padding: 0px; }
   .page-home #hero-container {
     margin: 0px 0px; } }
 @media screen and (max-width: 320px) {
   .page-home .slider {
     background-color: #fff;
     width: 100%;
-    margin-bottom: 20px; }
-  .page-home .serv-container {
-    width: 100%;
-    margin: 0;
-    text-align: right; }
-    .page-home .serv-container .serv-action {
-      margin: 0; } }
+    margin-bottom: 20px; } }
 
 #services {
   width: 100%;
