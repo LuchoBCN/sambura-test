@@ -399,17 +399,18 @@ input[type="button"] {
   left: 0; }
 
 header {
+  min-width: 300px;
   height: 90px;
   font-size: 20px;
   line-height: 1.09;
   background-color: #111; }
   header .logo {
-    height: 64px;
-    width: 64px;
+    height: 60px;
+    width: 60px;
     margin: 12px 0 0 10px;
     display: inline-block; }
   header .logo-type {
-    width: 100px;
+    width: 80px;
     display: inline-block; }
   header .logo-type-small {
     width: 60px; }
@@ -537,8 +538,13 @@ header {
     header .escribenos {
       display: none; } }
   @media screen and (max-width: 320px) {
+    header header {
+      height: 80px; }
+    header .logo {
+      height: 60px;
+      width: 60px; }
     header .logo-type {
-      width: 80px; } }
+      display: none; } }
 
 .page-home #hero-container {
   height: 600px;
@@ -558,10 +564,8 @@ header {
   text-align: right; }
   .page-home .serv-container .serv-action {
     width: 150px;
-    margin: 0 auto;
     margin-bottom: 35px;
-    background-color: transparent;
-    border-bottom: 2px solid #fff; }
+    background-color: transparent; }
     .page-home .serv-container .serv-action .serv-text {
       background-color: #fff;
       color: #333;
@@ -607,7 +611,11 @@ header {
     width: 100%;
     margin-bottom: 20px; }
   .page-home .serv-container {
-    width: 100%; } }
+    width: 100%;
+    margin: 0;
+    text-align: right; }
+    .page-home .serv-container .serv-action {
+      margin: 0; } }
 
 #services {
   width: 100%;

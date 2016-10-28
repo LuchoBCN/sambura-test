@@ -1,5 +1,6 @@
 
 header
+    min-width: 300px
     height: 90px
     font-size: 20px
     line-height: 1.09
@@ -8,13 +9,13 @@ header
 
 
     .logo
-        height: 64px
-        width: 64px
+        height: 60px
+        width: 60px
         margin: 12px 0 0 10px
         display: inline-block
 
     .logo-type
-        width: 100px
+        width: 80px
         display: inline-block
 
     .logo-type-small
@@ -177,6 +178,12 @@ header
             display: none
 
     @media screen and (max-width: 320px)
+        header
+            height: 80px
+        .logo
+            height: 60px
+            width: 60px
 
         .logo-type
-            width: 80px
+            display: none
+
