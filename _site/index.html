@@ -9,13 +9,15 @@
 </head>
 
 <body>
+<a name="home"></a>
+
 <!-- HEADER -->
 <header>
- <div class="logo"><img src="assets/img/logo-sambura-relieve.svg"></div>
+ <a class="logo" href="#home" rel=""><img src="assets/img/logo-sambura-relieve.svg"></a>
  <div class="logo-type"><img src="assets/img/logo-sambura-type.svg"></div>
 
-  <button class="escribenos" href="">escribenos</button>
-  <a class="mail-icon" href=""><img src="assets/img/mail-icon-01.svg"></a>
+  <a class="escribenos" href="#contact" rel="">Escribenos</a>
+  <a class="mail-icon" href="#contact" rel=""><img src="assets/img/mail-icon-01.svg"></a>
 
 
   <div class="dropbtn"><img class="menu-icon" src="assets/img/menu-icon-01.svg"></div>
@@ -23,14 +25,14 @@
     <div class="thunder-container">
       <a class="thunder-item" href="">nosotros</a>
       <a class="thunder-item" href="">equipos</a>
-      <a class="thunder-item" href="">portafolio</a>
+      <a class="thunder-item" href="#work" rel="">portafolio</a>
     </div>
   </div>
   
   <nav>
     <a class="menu" href="">nosotros</a>
     <a class="menu" href="">equipos</a>
-    <a class="menu" href="">portafolio</a>
+    <a class="menu" href="#work">portafolio</a>
   </nav>
   
 
@@ -49,16 +51,16 @@
       <div class="serv-container">
         <div class="serv-action">
             <div class="icon"><img class="icon-music" src="assets/img/piano-icon.svg"></div>
-            <a class="serv-text" href=""> música<br>diseño sonoro </a>
+            <a class="serv-text" href="#service"> música<br>diseño sonoro </a>
 
         </div>
         <div class="serv-action">
             <div class="icon"><img class="icon-music" src="assets/img/mic-icon.svg"></div>
-            <a class="serv-text" href=""> grabación </a>
+            <a class="serv-text" href="#service"> grabación </a>
         </div>
         <div class="serv-action">
             <div class="icon"><img class="icon-music" src="assets/img/master-icon.svg"></div>
-            <a class="serv-text" href=""> edición y master </a>
+            <a class="serv-text" href="#service"> edición y master </a>
         </div>
       </div>
 
@@ -73,19 +75,19 @@
 </div>
  <!--END TAG LINE--> 
 
- 
  <!--SERVICIOS--> 
+ <a name="service"></a>
 <div id="services">
 <div class="lista">
     <ul id="folis" class="lista-item">
         <div class="serv-icon"><img src="assets/img/layers-icon-01.svg"></div>
         <li class="serv-head"><strong class="tit-serv">Música<br>diseño sonoro</strong></li>
-        <li>Composición</li>
-        <li>Arreglos</li>
-        <li>Efectos</li>
-        <li>Ambientales</li>
+        <li class="border">Composición</li>
+        <li class="border">Arreglos</li>
+        <li class="border">Efectos</li>
+        <li class="border">Ambientales</li>
         <li>Jingles</li>
-        <div class="serv-button-container"><a href="#" class="serv-button">Saber más ></a></div>
+        <div class="serv-button-container"><a href="#contact" class="serv-button">Saber más ></a></div>
 
     </ul>
 </div>
@@ -93,13 +95,13 @@
     <ul id="locu" class="lista-item">
         <div class="serv-icon"><img src="assets/img/onda-icon-01-01.svg"></div>
         <li class="serv-head"><strong class="tit-serv">Grabación</strong></li>
-        <li>En vivo</li>
-        <li>De estudio</li>
-        <li>Foleys</li>
-        <li>Locución</li>
-        <li>Directo</li>
+        <li class="border">En vivo</li>
+        <li class="border">De estudio</li>
+        <li class="border">Foleys</li>
+        <li class="border">Locución</li>
+        <li class="border">Directo</li>
         <li>Stream</li>
-        <div class="serv-button-container"><a href="#" class="serv-button">Saber más ></a></div>
+        <div class="serv-button-container"><a href="#contact" class="serv-button">Saber más ></a></div>
 
     </ul>
 </div>
@@ -107,20 +109,23 @@
     <ul id="musica" class="lista-item">
         <div class="serv-icon"><img src="assets/img/consola-icon-01.svg"></div>
         <li class="serv-head"><strong class="tit-serv">edición y master</strong></li>
-        <li>Preproducción</li>
-        <li>Mezcla</li>
-        <li>Masterización</li>
-        <li>Edición</li>
-        <li>Montaje</li>
+        <li class="border">Preproducción</li>
+        <li class="border">Mezcla</li>
+        <li class="border">Masterización</li>
+        <li class="border">Edición</li>
+        <li class="border">Montaje</li>
         <li>Adaptación</li>
-        <div class="serv-button-container"><a href="#" class="serv-button">Saber más ></a></li></div>
+        <div class="serv-button-container"><a href="#contact" class="serv-button">Saber más ></a></li></div>
 
     </ul>
 </div>
 </div>
- <!--SERVICIOS--> 
+ <!--SERVICIOS-->
 
- <!--TAG LINE--> 
+
+<!--scroll portfolio--> 
+ <a name="work" id="work"></a>
+<!--TAG LINE--> 
 <div class="tag-line-container">
   <div class="tag-line">Hacemos realidad tus ideas sonoras. <strong class="tag-strong">Te escuchamos.</strong></div>
 </div>
@@ -132,7 +137,11 @@
 
   
   <div class="work-container">
-    <div class="work-title">Dieter Negrin </div>
+    <div class="work-title">
+      Alí Velazquez
+      <div class="categories">Álbum</div>
+      <div class="subtitle">Aguacero</div>
+    </div>
 
    <!-- <div id="audio-player">
       <div class="song-info">
@@ -163,10 +172,10 @@
         <button class="pause"></button>
       </div>
     </div> -->
-    <!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126987453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>-->
     <div class="work-content">
     <div class="work-review">  
-      <p>On their second album, the Australian outfit 
+      <iframe width="100%" height="280" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182167174&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<p>On their second album, the Australian outfit 
 go bigger and broader, unapologetically mining 
 Primal Scream and the Madchester scene for inspiration.</p>
 
@@ -178,7 +187,11 @@ Primal Scream and the Madchester scene for inspiration.</p>
   </div>
   
   <div class="work-container">
-    <div class="work-title">Dieter Negrin </div>
+    <div class="work-title">
+      Conciencia TV
+      <div class="categories">Televisión</div>
+      <div class="subtitle">Promo temporada 2014</div>
+    </div>
 
    <!-- <div id="audio-player">
       <div class="song-info">
@@ -209,56 +222,10 @@ Primal Scream and the Madchester scene for inspiration.</p>
         <button class="pause"></button>
       </div>
     </div> -->
-    <!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126987453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>-->
     <div class="work-content">
     <div class="work-review">  
-      <p>On their second album, the Australian outfit 
-go bigger and broader, unapologetically mining 
-Primal Scream and the Madchester scene for inspiration.</p>
-
-    </div>
-    </div>
-    <div class="tags">
-      Música original / master
-    </div>
-  </div>
-  
-  <div class="work-container">
-    <div class="work-title">Gustavo Cerati </div>
-
-   <!-- <div id="audio-player">
-      <div class="song-info">
-      <span class="artist font-player">Artista </span><span class="title font-player">canción </span><span class="duracion font-player">12:14</span>
-      </div>
-      <div class="tracker">
-        <div class="progress-bar">
-          <span id="progress"></span>
-        </div>
-      </div>          
-      <div id="audio-buttons">
-        <button class="play"></button>
-        <button class="pause"></button>
-      </div>
-    </div>
-
-    <div id="audio-player">
-      <div class="song-info">
-      <span class="artist font-player">Artista </span><span class="title font-player">canción </span><span class="duracion font-player">12:14</span>
-      </div>
-      <div class="tracker">
-        <div class="progress-bar">
-          <span id="progress"></span>
-        </div>
-      </div>          
-      <div id="audio-buttons">
-        <button class="play"></button>
-        <button class="pause"></button>
-      </div>
-    </div> -->
-    <!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126987453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>-->
-    <div class="work-content">
-    <div class="work-review">  
-      <p>WALLS mostly finds Kings of Leon back 
+      <iframe width="280" height="158" src="https://www.youtube.com/embed/HCVg9ks2oy8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+<p>WALLS mostly finds Kings of Leon back 
 in that mode of offering up fast-food 
 “whoa-oh” singalongs and guitars that 
 chime as distinctly as wallpaper.</p>
@@ -271,7 +238,11 @@ chime as distinctly as wallpaper.</p>
   </div>
   
   <div class="work-container">
-    <div class="work-title">Gustavo Cerati </div>
+    <div class="work-title">
+      Conciencia TV
+      <div class="categories">televisión</div>
+      <div class="subtitle">Id 2015</div>
+    </div>
 
    <!-- <div id="audio-player">
       <div class="song-info">
@@ -302,10 +273,10 @@ chime as distinctly as wallpaper.</p>
         <button class="pause"></button>
       </div>
     </div> -->
-    <!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126987453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>-->
     <div class="work-content">
     <div class="work-review">  
-      <p>WALLS mostly finds Kings of Leon back 
+      <iframe src="https://player.vimeo.com/video/76361269?title=0&amp;byline=0&amp;portrait=0" width="280" height="158" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<p>WALLS mostly finds Kings of Leon back 
 in that mode of offering up fast-food 
 “whoa-oh” singalongs and guitars that 
 chime as distinctly as wallpaper.</p>
@@ -318,7 +289,11 @@ chime as distinctly as wallpaper.</p>
   </div>
   
   <div class="work-container">
-    <div class="work-title">Sur conciente </div>
+    <div class="work-title">
+      Dieter Negrin
+      <div class="categories">álbum</div>
+      <div class="subtitle">de día de noche</div>
+    </div>
 
    <!-- <div id="audio-player">
       <div class="song-info">
@@ -349,10 +324,60 @@ chime as distinctly as wallpaper.</p>
         <button class="pause"></button>
       </div>
     </div> -->
-    <!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126987453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>-->
     <div class="work-content">
     <div class="work-review">  
-      <p>The fourth full-length from singer/songwriter/producer 
+      <iframe width="100%" height="280" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71822332&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<p>On their second album, the Australian outfit 
+go bigger and broader, unapologetically mining 
+Primal Scream and the Madchester scene for inspiration.</p>
+
+    </div>
+    </div>
+    <div class="tags">
+      Música original / master
+    </div>
+  </div>
+  
+  <div class="work-container">
+    <div class="work-title">
+      Obnox
+      <div class="categories">Master</div>
+      <div class="subtitle">canabible ohio</div>
+    </div>
+
+   <!-- <div id="audio-player">
+      <div class="song-info">
+      <span class="artist font-player">Artista </span><span class="title font-player">canción </span><span class="duracion font-player">12:14</span>
+      </div>
+      <div class="tracker">
+        <div class="progress-bar">
+          <span id="progress"></span>
+        </div>
+      </div>          
+      <div id="audio-buttons">
+        <button class="play"></button>
+        <button class="pause"></button>
+      </div>
+    </div>
+
+    <div id="audio-player">
+      <div class="song-info">
+      <span class="artist font-player">Artista </span><span class="title font-player">canción </span><span class="duracion font-player">12:14</span>
+      </div>
+      <div class="tracker">
+        <div class="progress-bar">
+          <span id="progress"></span>
+        </div>
+      </div>          
+      <div id="audio-buttons">
+        <button class="play"></button>
+        <button class="pause"></button>
+      </div>
+    </div> -->
+    <div class="work-content">
+    <div class="work-review">  
+      <iframe style="border: 0; width: 280px; height: 280px;" src="https://bandcamp.com/EmbeddedPlayer/album=2347399192/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless=""><a href="http://slovenly.bandcamp.com/album/obnox-canabible-ohio-ep">OBNOX  &quot;Canabible Ohio&quot; EP by Obnox</a></iframe>
+<p>The fourth full-length from singer/songwriter/producer 
 Natalie Mering overflows with the misty sounds of late 
 ’60s folk and ’70s AM radio, but her presence in these 
 songs is modern and slyly knowing.</p>
@@ -365,7 +390,11 @@ songs is modern and slyly knowing.</p>
   </div>
   
   <div class="work-container">
-    <div class="work-title">Sur conciente </div>
+    <div class="work-title">
+      Sur conciente
+      <div class="categories">Master</div>
+      <div class="subtitle">venezolania</div>
+    </div>
 
    <!-- <div id="audio-player">
       <div class="song-info">
@@ -396,10 +425,10 @@ songs is modern and slyly knowing.</p>
         <button class="pause"></button>
       </div>
     </div> -->
-    <!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126987453&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>-->
     <div class="work-content">
     <div class="work-review">  
-      <p>The fourth full-length from singer/songwriter/producer 
+      <iframe style="border: 0; width: 280px; height: 280px;" src="https://bandcamp.com/EmbeddedPlayer/album=2647854162/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless=""><a href="http://surconciente.bandcamp.com/album/2012-venezolan-a">(2012) Venezolanía by SurConciente</a></iframe>
+<p>The fourth full-length from singer/songwriter/producer 
 Natalie Mering overflows with the misty sounds of late 
 ’60s folk and ’70s AM radio, but her presence in these 
 songs is modern and slyly knowing.</p>
@@ -416,10 +445,12 @@ songs is modern and slyly knowing.</p>
 
  <!--CONTACT--> 
 
+ <a name="contact">
 
 <div class="contact-container">
 
-    <div class="contact-tit"><strong class="contact-strong">Puedes llamarnos o escribirnos.</strong><br>Queremos escuchar sobre tu proyecto.</div>
+    <div class="contact-tit">Puedes llamarnos o escribirnos.<br><strong class="contact-strong">Queremos escuchar sobre tu proyecto.</strong></div>
+ 
 
     <div class="datos">
         <img src="assets/img/phone-icon-01.svg" height="40px" width="40px">
@@ -449,8 +480,20 @@ songs is modern and slyly knowing.</p>
 <!-- END CONTACT-->
 
  <!--FOOTER--> 
+
 <div class="footer-container">
-    HOLA SOY FOOTER
+<div class="info-footer">
+    <div class="ubic-icon"><img src="../assets/img/ubic-icon-01.svg"></div>
+    <strong>Samburá Producciones R.L</strong><br>
+    Av. Lecuna. Centro Parque Central, Edificio Caroata, piso ofc02, Oficina 210.<br>
+    Distrito Capital, Caracas, Venezuela.
+    </div>
+<div class="social-media-container">
+    <img src="../assets/img/fb.svg">
+    <img src="../assets/img/ig.svg">
+    <img src="../assets/img/ut.svg">
+    <img src="../assets/img/sc.svg">
+</div>
 </div>
 <!-- END FOOTER-->
 
@@ -460,7 +503,6 @@ songs is modern and slyly knowing.</p>
 
 <script src="assets/js/jquery-2.1.4.min.js"></script>
 <script src="assets/js/functions.js"></script>
-
 
 
 
