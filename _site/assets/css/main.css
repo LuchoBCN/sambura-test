@@ -408,7 +408,8 @@ header {
     height: 50px;
     width: 50px;
     margin: 12px 0 0 10px;
-    display: inline-block; }
+    display: inline-block;
+    background: #fff; }
   header .logo-type {
     width: 80px;
     display: inline-block; }
