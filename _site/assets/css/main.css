@@ -247,12 +247,8 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 a {
-  color: #0074D9;
   text-decoration: none;
   outline: 0; }
-  a:hover, a:focus {
-    color: #40a6ff;
-    background-color: #40a6ff; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
